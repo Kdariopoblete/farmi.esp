@@ -1,0 +1,133 @@
+/* reset codigo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* var colores */
+:root {
+    --principal: #D4D3CC;
+    --secundario: #7B7C74;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Agrega esto a tu archivo style.css o en la sección de estilos en tu HTML */
+.navbar-nav .nav-link {
+    font-size: 16px; /* Ajusta el tamaño según tus preferencias */
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.opacidad-imagen {
+    opacity: 0.6;
+}
+
+.card-title {
+    color: #FFFFFF;
+}
+
+.title-galeria {
+    color: var(--secundario);
+    font-weight: bold;
+}
+
+/*  altura maxima img carrusel */
+.img-carru img {
+    max-height: 70vh;
+}
+#cinta{
+    background-color: red;
+}
+/* logo */
+#logo {
+    width: 14vh;
+}
+
+header {
+    background-color: var(--principal);
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+}
+#somos{
+    border-radius: 15px;
+}
+
+/*  iconos footer */
+.redes {
+    height: 15px;
+}
+
+/* Efecto tarjetas */
+.tarjetas .card:hover .card-img-top {
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+/*  título en las tarjetas  */
+.card .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: var(--principal);
+}
+
+/* sin viñetas de las listas  */
+ul {
+    list-style: none;
+    background-color: var(--principal);
+}
+
+/* sin subrayado de los enlaces  */
+.social-icons a {
+    color: black;
+    background-color: var(--principal);
+    text-decoration: none;
+}
+
+.enviar {
+    border: solid 2px;
+}
+
+.btn-enviar {
+    background-color: var(--principal);
+}
+#mouse{
+    width: 25px;
+   }
+
+footer {
+    background-color: var(--principal);
+    padding: 20px;
+    
+}
+.text-outline {
+    color: white; /* Color del texto */
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         4px  4px 0 black; /* Efecto de contorno */
+}
